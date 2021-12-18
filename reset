@@ -1,0 +1,12 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+SUFIX='Episódio'
+
+rm -rf */
+rm -f $SUFIX*
+
+touch "$SUFIX "{1..12}" - Dororo.mp4"
+touch "$SUFIX "{1..25}" - Kimetsu no yaiba.mp4"
+
+touch "$SUFIX 1 - Naruto Shippuden.mp4"
+touch "$SUFIX 1 - Pokemon.mp4"
